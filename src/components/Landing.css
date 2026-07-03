@@ -1,0 +1,26 @@
+.landing-container {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("../assets/landpage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding-inline: 30px;
+}
+aside,
+article {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 10px);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  padding: 50px;
+}
